@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+#split{
+    margin: auto;
+}
+
+.bill-alert, .tip-alert, .split-alert, #split{
+    display: none;
+}
+
+.card{
+    border-radius: 2rem;
+}
