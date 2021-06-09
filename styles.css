@@ -1,15 +1,41 @@
 body{
     text-align: center;
+    padding-top: 2rem;
+    background-color: rgb(236, 245, 255);
 }
 
 #split{
     margin: auto;
 }
 
-.bill-alert, .tip-alert, .split-alert, #split{
+#pay{
     display: none;
 }
 
+.bill-alert, .tip-alert, .split-alert{
+    display: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.split-check{
+    background-color: rgb(246, 246, 246);
+    border: none;
+}
+
 .card{
-    border-radius: 2rem;
+    border-radius: 1rem;
+    width: 55rem;
+    margin: auto;
+    background-color: rgb(246, 246, 246);
+}
+
+@media(max-width: 991px){
+    .card{
+        width: 90vw;
+    }
+
+    .labels{
+        text-align: left !important;
+    }
 }
