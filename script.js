@@ -24,7 +24,7 @@ function calculate() {
             }
             else alerting(document.querySelector(".split-alert"))
         }
-        else{
+        else {
             document.querySelector(".total-bill").innerHTML = `₹` + totalBill.toFixed(2)
             document.querySelector(".total-tip").innerHTML = `₹` + (totalBill - bill).toFixed(2)
             total.style.display = "block"

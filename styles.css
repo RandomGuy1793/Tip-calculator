@@ -12,6 +12,11 @@ body{
     display: none;
 }
 
+.heading{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
 .bill-alert, .tip-alert, .split-alert{
     display: none;
     margin-bottom: 0px;
